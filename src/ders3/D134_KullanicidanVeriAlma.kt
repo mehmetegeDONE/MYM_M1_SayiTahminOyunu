@@ -3,10 +3,10 @@ package ders3
 fun main() {
 
     print("Adınızı gir: ")
-    val isim = readln()
+    val isim = readln() // Hep string verecektir!
 
     print("Kilonu gir: ")
-    val dunyaKilosu = readln().toInt() // Integera çevirdik!
+    val dunyaKilosu = readln().toInt() // Stringi Integera çevirdik!
 
     val marsKilosu = dunyaKilosu * 0.38
     val formatliMarsKilosu = "%.3f".format(marsKilosu) // <- Floatun 00000000000'larını azaltmak için
